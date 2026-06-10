@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realistic Saturn</title>
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: black;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="saturnCanvas"></canvas>
+
+    <!-- Three.js core -->
+    <script src="https://unpkg.com/three@0.149.0/build/three.min.js"></script>
+
+    <!-- Post-processing pipeline -->
+    <script src="https://unpkg.com/three@0.149.0/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://unpkg.com/three@0.149.0/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://unpkg.com/three@0.149.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+
+    <!-- Optional but recommended: camera controls -->
+    <script src="https://unpkg.com/three@0.149.0/examples/js/controls/OrbitControls.js"></script>
+
+    <!-- Your main script -->
+    <script src="js/mainFRESH.js"></script>
+</body>
+</html>
